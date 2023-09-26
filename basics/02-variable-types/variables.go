@@ -6,7 +6,7 @@ func main(){
 	// declaring variables and types
 	var i int
 	var s string
-
+	
 	// initializing values
 	i = 20
 	s = "I am a string"
@@ -31,7 +31,7 @@ func main(){
 	
 	firstname, lastname := "firstName", "LastName"
 
-	fmt.Println(firstname + lastname)
+	fmt.Println(firstname + " "+ lastname)
 
 	// variable declaration block
 	var(
@@ -41,4 +41,7 @@ func main(){
 
 	fmt.Println(name)
 	fmt.Println(age)
+
+	join()
+	convert()
 }
