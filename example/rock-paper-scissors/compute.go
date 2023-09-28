@@ -1,6 +1,8 @@
 package main
 
+import "math/rand"
 
 func compute() int {
-	return 87
+	r := rand.Intn(3) + 1
+	return r
 }
